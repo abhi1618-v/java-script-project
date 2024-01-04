@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Java script OTP Generator Project</title>
+  </head>
+  <body>
+    <div class="container">
+        <h3>OTP GENERATOR</h3>
+      <div class="divStyle">
+        <input type="text" id="inputField" placeholder="YOUR OTP" readonly />
+
+        <button id="copyButton">Copy OTP</button>
+      </div>
+      <div class="divStyle">
+        <input type="range" id="range" value="4" min="4" max="10" step="2" />
+        <label for="range">Range: 4</label>
+      </div>
+
+      <button id="button">Generate OTP</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
